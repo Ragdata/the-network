@@ -1,0 +1,39 @@
+/* https://github.com/ragdata/the-network */
+
+#container-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 10px
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+.box img {
+    height: 48px;
+    width: 48px
+}
+img.titleimg {
+    position: relative;
+    top: 7px;
+    float: left;
+    margin-right: 10px
+}
+
+.box a.is-external-link::after { content: ""!important; }
+
+.bold { font-weight: 700!important; }
+
+.fg-black { color: #000!important; }
+.fg-white { color: #fff!important; }
+.fg-gold { color: #ffbf00!important; }
+
+.is-warning p a { color: #000!important; }
+
+.theme--dark .v-main .contents h2.gold::after { background: linear-gradient(90deg,#ffbf00,rgba(255,191,0,0)); }
