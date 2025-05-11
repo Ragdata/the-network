@@ -12,6 +12,16 @@
     gap: 2rem;
     margin-top: 10px
 }
+.social {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 5px;
+    float: left
+}
 .box {
     display: flex;
     flex-direction: column;
@@ -31,6 +41,13 @@ img.titleimg {
     float: left;
     margin-right: 10px
 }
+
+.float-left { float: left; }
+.float-left a.is-external-link::after { content: ""!important; }
+
+.margin-right { margin-right: 15px; }
+
+.noul { text-decoration: none; }
 
 .box a.is-external-link::after { content: ""!important; }
 
