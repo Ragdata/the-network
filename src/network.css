@@ -12,6 +12,7 @@
     gap: 2rem;
     margin-top: 10px
 }
+
 .social {
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@
     margin-right: 5px;
     float: left
 }
+
 .box {
     display: flex;
     flex-direction: column;
@@ -35,6 +37,18 @@
     height: 48px;
     width: 48px
 }
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+
 img.titleimg {
     position: relative;
     top: 7px;
